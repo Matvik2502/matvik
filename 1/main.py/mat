@@ -1,0 +1,6 @@
+for number in range(15, 24):
+ tens = number // 15
+ units = number % 24
+ product = tens * units
+ if number == product:
+  print(number) 
